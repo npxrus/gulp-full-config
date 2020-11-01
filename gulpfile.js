@@ -16,7 +16,7 @@ const server = browserSync.create();
 
 const paths = {
   layout: {
-    src: "src/index.pug",
+    src: ["src/index.pug", "src/views/pages/*.pug"],
     dest: "dist/",
     watch: "src/**/*.pug",
   },
